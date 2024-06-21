@@ -12,6 +12,14 @@ The Recipe Finder website is adynamic and interactive platform designed to help 
 AJAX (Asynchronous JavaScript and XML) is a set of web development techniques that allows webpages to be updated asynchronously by getting data with the server from the APIs. This enable a more dynamic and responsive user experience, as it allows parts of a webpage to be updated without requiring a full page reload. 
 
 AJAX works as: 
-1. WithAJAX,webapplicationscansendandreceivedatafromaserver asynchronouslyinthebackground. 2. ThiscanbedonebysendingthehttprequesttogetthedatafromAPItothe serverandthisusesXMLHttpRequest(XHR)Objecttosendhttprequest. 3. Dataiscommonlyexchangedbetweentheserverandtheclientinotherformats likeJSON. 4. Oncethedataisreceived,JavaScriptcanbeusedtoupdatingspecificpartsofthe pagewithoutrequiringafullreload. Instructions: TheInstructionsonhowtoruntheprojectlocallyisgivenbelow: 1. Firstofall,Clonetherepositorytoanyfolder. 2. Then,simpleopentheindexfileofHTMLtoanywebbrowser. 3. ThiswillrunthewebsiteofRecipeFinder. Challenges: 1-SEO(SearchEngineOptimization)Challenges: SearchenginesmayhavedifficultyinloadingdataviaAJAX,affectingthewebsite's search.
-EnterpriseApplicationDevelopment
-Solution: Implementthe"pushState"methodtoupdateURLswhenAJAXcontent changes. 2-BrowserCompatibility: DifferentbrowsersmayinterpretandhandleAJAXrequestsdifferently, leadingto inconsistentbehavior. Solution:Testthoroughlyacrossvariousbrowsersandversions. BestPracticetoovercometheseChallenges: 1-Alwaysusesecureconnections(HTTPS)toencryptdataduringAJAXrequests, preventingdatainterception. 2-ImplementCORSbyusingservertosendrequestforgettingdata. 3-RegularlytestAJAXfunctionalityacrossvariousbrowsers. FutureofAJAX: Withtheriseofsingle-pageapplications(SPAs)andthewidespreadadoptionof JavaScriptframeworkssuchasReact,Angular,andVue.js,AJAX(Asynchronous JavaScriptandXML)continuestoplayacrucialroleinmodernwebdevelopment practices.AJAXremainsfundamentalinSPAsbyenablingasynchronousdata retrievalwithoutrequiringafullpagereload.JavaScriptframeworkslikeReact, Angular,andVue.jsleverageAJAXtoefficientlyupdatecomponentsandmanage state.AJAXiscommonlyusedtointeractwithRESTfulAPIs,whichserveasthe backbonefordataexchangeinmodernwebapplications.
+1. With AJAX, web applications can send and receive data from a server asynchronously in the background.
+2. This can be done by sending the http request to get the data from API to the server and this uses XMLHttpRequest(XHR) Object to send http request.
+3. Data is commonly exchanged between the server and the client in other formats like JSON.
+4. Once the data is received, JavaScript can be used to updating specific parts of the page without requiring a full reload.
+
+# Instructions:  
+The Instructions on how to run the project locally is given below: 
+1. First of all, Clone the repository to any folder.
+2. Then, simple open the index file of HTML to any web browser.
+3. This will run the website of Recipe Finder.
+
